@@ -1,10 +1,10 @@
-# Secrets
-config.py
+# Secrets (config.py ALLOW for deploy)
 .env
 *.pem
 *.key
 *.crt
 *.p12
+baad me.txt
 
 # Python
 __pycache__/
@@ -32,11 +32,10 @@ Thumbs.db
 *.log
 logs/
 
-# Railway / Deploy
+# Railway
 railway.toml
 Procfile.private
 
-# DB dumps
+# DB
 *.bson
 *.dump
-baad me.txt
