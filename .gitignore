@@ -1,0 +1,42 @@
+# Secrets
+config.py
+.env
+*.pem
+*.key
+*.crt
+*.p12
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Railway / Deploy
+railway.toml
+Procfile.private
+
+# DB dumps
+*.bson
+*.dump
+baad me.txt
